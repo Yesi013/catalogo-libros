@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.buscador{
+    background-color: lightgrey;
+    padding: 2rem;
+    text-align: center;
+}
+.titulo{
+    font-size: 3rem;
+}
+
+.search{
+    font-size: 1rem;
+    margin: 1rem;
+    border-style: groove;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+.boton{
+    background-color:black;
+    color: white;
+}
+
+.fondo{
+    background-color: lightblue;
+}
+
+.catalogo{
+    background-color: rgba(0, 0, 0, 0.24);
+    padding: 2rem;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    border-radius: 1rem;
+    box-shadow: 7px 13px 37px black;
+    width: 600px;
+    height: 525px;
+}
+
+.libros{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "agregar-libros" "ver-favoritos";
+    gap: 2rem;
+}
+
+.formulario{
+    width: 100%;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-color: black;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.titulo-2, h3{
+    margin: 1rem;
+    text-decoration: underline;
+}
+.agregar{
+    margin: 2rem;
+    padding: 1rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 5px 15px black;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.377);
+}

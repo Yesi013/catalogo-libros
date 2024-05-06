@@ -1,0 +1,4 @@
+[
+    { "titulo": "El señor de los anillos", "autor": "J.R.R. Tolkien", "descripcion": "Fantasía épica", "archivo_pdf": "el_senor_de_los_anillos.pdf" },
+    { "titulo": "Cien años de soledad", "autor": "Gabriel García Márquez", "descripcion": "Realismo mágico", "archivo_pdf": "cien_anios_de_soledad.pdf" }
+]

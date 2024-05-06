@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Libros</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="fondo">
+    <div class="buscador">
+        <h1 class="titulo">Catálogo de Libros</h1>
+        <input class="search" type="text" id="searchInput" placeholder="Buscar libros...">
+        <button class="search boton" onclick="buscarLibro()">Buscar</button>
+        <div id="resultados"></div>
+    </div>
+    <div class="libros">
+        <div class="agregar-libros catalogo">
+            <h2 class="titulo-2">Agregar nuevo libro</h2>
+            <form class="" id="nuevoLibroForm">
+                <label class="" for="titulo">Título:</label>
+                <input class="formulario" type="text" id="titulo" name="titulo" required><br>
+                <label class="" for="autor">Autor:</label>
+                <input class="formulario" type="text" id="autor" name="autor" required><br>
+                <label class="" for="descripcion">Descripción:</label><br>
+                <textarea class="formulario" id="descripcion" name="descripcion" rows="4" cols="50"></textarea><br>
+                <label class="pdf" for="archivoPDF">Archivo PDF:</label>
+                <input  type="file" id="archivoPDF" name="archivoPDF" accept=".pdf"><br>
+                <button class="agregar" type="submit">Agregar Libro</button>
+            </form>
+        </div>
+        <div class="ver-favoritos catalogo">
+            <h2 class="titulo-2">Libros Favoritos</h2>
+            <div id="favoritos"></div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
